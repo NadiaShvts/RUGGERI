@@ -2614,8 +2614,6 @@
     .video-section .video-section__with-background{
         background-image: url(imgs/section3-bg.png);
         background-size: cover;
-        background-position: center;
-        min-width: 1024px;
     }
     .container-video{
         display: block;
