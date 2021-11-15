@@ -10,6 +10,9 @@ body,header{
 .ruggeri-header {
     max-width: 100%;
     max-height: 810px;
+    background: url("imgs/headerfon.png") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .content-wrapper {
     display: block;
@@ -17,7 +20,6 @@ body,header{
 }
 .header-content{
     display: block;
-    background: url("imgs/headerfon.png") no-repeat;
     max-width: 100%;
     max-height: 810px;
 }
@@ -254,7 +256,6 @@ body,header{
     border-radius: 0 30px 0 0;
     width: 50%;
 }
-
 .about-us__content{
     display: flex;
 
@@ -296,7 +297,7 @@ body,header{
     justify-content: center;
     align-items: center;
     margin-top: -50px;
-    margin-right: 128px;
+    margin-right: 16%;
 }
 .cert-label{
     display: inline-flex;
@@ -526,7 +527,6 @@ body,header{
     flex-direction: column;
     align-items: center;
     margin-top: 130px;
-
 }
 .logo-video{
     display: flex;
@@ -561,6 +561,7 @@ body,header{
 .content-img img{
     object-fit: fill;
 }
+
 .ruggeri-footer{
     display: block;
     background-color: #803216;
@@ -594,3 +595,7 @@ body,header{
     color: #FFFFFF;
     text-decoration: none;
 }
+.button-mobile-menu { display: none; }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .button-mobile-menu { display: inline; }}
